@@ -34,9 +34,9 @@ These files are modified according to the *A+B problem*:
 
 ## Notes
 
-- Don't forget to use testlib or ```srand(time(0));``` in your generator. Testsaz generate input files with a 1 second time delay, so using only ```srand(time(0));``` suffice for obtaining random and different input files.
-- The total number of lines in *generator_input.txt* matters. It determines the total number of input files.
-- The last line of *generator_input.txt* shout not be empty.
+- Don't forget to use testlib or ```srand(time(0));``` in your generator. Testsaz generates input files with a 1 second time delay, so using only ```srand(time(0));``` suffices for obtaining random and different input files.
+- The total number of lines in *generator_input.txt* file matters. It determines the total number of input files.
+- The last line of *generator_input.txt* file should not be empty.
 
 ## See also
 
