@@ -43,5 +43,3 @@ These files are modified according to the *A+B problem*:
 - [testlib](https://github.com/MikeMirzayanov/testlib)
 
 - [tps](https://github.com/ioi-2017/tps)
-
-  ​
