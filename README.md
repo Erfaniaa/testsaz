@@ -30,7 +30,7 @@ These files are modified according to the *A+B problem*:
 
 - *solution.cpp*: It reads two integers from the input, and it prints their sum.
 - *generator.cpp*: It generates two random integers in a specific range.
-- *generator_input.txt*: It determines the ranges for the generator.
+- *generator_input.txt*: It contains the specified ranges for the generator.
 
 ## Notes
 
