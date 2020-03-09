@@ -9,10 +9,8 @@ while IFS= read -r var
 do
 	sleep 1;
 	echo "start #$i";
-	echo "$var" > "tmp.txt"
-	./a.out < "tmp.txt" > "tests/$i.in"
+	./a.out <<< "$var" > "tests/$i.in"
 	echo "end #$i";
 	i=$((i+1))
 done < "$input"
-rm tmp.txt
 rm a.out
