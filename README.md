@@ -25,6 +25,55 @@ It can be helpful when you're preparing some problems for algorithmic contest an
 
    Now, there are some output files in the *tests* directory.
 
+## Logs
+
+- ```./input_maker.sh``` command prints a report which shows running time and exit code of the generator:
+
+  ```
+  Generating input files...
+
+  start #0
+  time: 0:00.00
+  exit code: 0
+  end #0
+
+  start #1
+  time: 0:00.00
+  exit code: 0
+  end #1
+
+  start #2
+  time: 0:00.00
+  exit code: 0
+  end #2
+
+  ...
+  ```
+
+
+- ```./output_maker.sh``` command prints a report which shows running time and exit code of the solution:
+
+  ```
+  Generating output files...
+
+  start #0
+  time: 0:00.00
+  exit code: 0
+  end #0
+
+  start #1
+  time: 0:00.00
+  exit code: 0
+  end #1
+
+  start #2
+  time: 0:00.00
+  exit code: 0
+  end #2
+
+  ...
+  ```
+
 ## Sample
 
 A simple problem with 15 tests is already prepared in this repository.
@@ -39,7 +88,7 @@ These files are modified according to the *A+B problem*:
 
 - As it is seen in the sample, a random seed can be passed to the generator.
 - The total number of lines in *generator_input.txt* file matters. It determines the total number of input files.
-- The last line of *generator_input.txt* file should not be empty.
+- The last line of *generator_input.txt* file should be empty.
 
 ## See also
 

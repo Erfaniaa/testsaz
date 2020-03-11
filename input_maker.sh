@@ -9,7 +9,7 @@ while IFS= read -r var
 do
 	echo ""
 	echo "start #$i"
-	/usr/bin/time --format="time: %E\nexit code: %x" bash -c "./a.out <<< \"$var\" > tests/$i.in"
+	\time --format="time: %E\nexit code: %x" bash -c "./a.out <<< \"$var\" > tests/$i.in"
 	echo "end #$i"
 	i=$((i+1))
 done < "$input"

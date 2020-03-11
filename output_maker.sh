@@ -6,7 +6,7 @@ echo "Generating output files..."
 for ((i=0; i<$input_files_count; i++)); do
 	echo ""
 	echo "start #$i"
-	/usr/bin/time --format="time: %E\nexit code: %x" bash -c "./a.out < tests/$i.in > tests/$i.ans"
+	\time --format="time: %E\nexit code: %x" bash -c "./a.out < tests/$i.in > tests/$i.ans"
 	echo "end #$i"
 done
-rm a.out
+rm -f a.out
