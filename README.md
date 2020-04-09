@@ -1,6 +1,6 @@
 # Testsaz
 
-Testsaz ("تست‌ساز" in Persian) is a fast, minimal test-case generator system for ICPC-style and IOI-style problems.
+Testsaz ("تست‌ساز" in Persian) is a fast, minimal test-case generator system for ICPC style and IOI style problems.
 
 It can be helpful when you're preparing some problems for algorithmic contest and Algorithm Design and Data Structures courses.
 
