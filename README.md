@@ -2,7 +2,7 @@
 
 Testsaz ("تست‌ساز" in Persian) is a fast, minimal test-case generator system for ICPC style and IOI style problems.
 
-It can be helpful when you're preparing some problems for algorithmic contest and Algorithm Design and Data Structures courses.
+It can be helpful when you're preparing some problems for algorithmic contests and Algorithm Design and Data Structures courses.
 
 ##  Usage
 
@@ -16,7 +16,7 @@ It can be helpful when you're preparing some problems for algorithmic contest an
 1. Modify these files according to your problem:
    - *solution.cpp*: the main solution to your problem
    - *generator.cpp*: input files generator
-   - *generator_input.txt*: line-separated data which is being passed to the generator
+   - *generator_input.txt*: line-separated data which is going to be passed to the generator
 
 2. ```./input_maker.sh```
 
